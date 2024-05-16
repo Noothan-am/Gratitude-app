@@ -1,0 +1,26 @@
+@import 'colors';
+
+.fixed-input {
+  position: fixed;
+  top: auto;
+  bottom: 10%;
+  left: 0%;
+  right: 0%;
+  padding: 0 5%;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  background-color: $blackColor;
+  color: #999999;
+  cursor: text;
+  border-radius: 1rem;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.send-icon {
+  cursor: pointer;
+}

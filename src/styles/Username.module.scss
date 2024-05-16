@@ -1,0 +1,11 @@
+@import 'colors';
+
+.main-wrapper {
+  background-color: $bgColor;
+  height: 100vh;
+  padding: 3rem;
+}
+
+.username {
+  text-align: center;
+}
